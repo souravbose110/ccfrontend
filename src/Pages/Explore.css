@@ -1,0 +1,18 @@
+.row {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}

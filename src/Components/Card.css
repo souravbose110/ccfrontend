@@ -1,0 +1,33 @@
+.explore-card {
+    height: 284px;
+    width: 280px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+
+.top-part {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    background-image: url(../Images/Trie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom-part {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    width: 33.3%;
+}
+
+.title {
+    font-size: 40px;
+}
